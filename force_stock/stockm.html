@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <title>库存管理</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="./layui-v2.5.7/layui/css/layui.css">
+    <link rel="stylesheet" href="lib/layui-icon-extend/iconfont.css">
+    <style>
+        .layui-table, .layui-table-view {
+            margin: 0px 0;
+        }
+
+        .top {
+            width: 100%;
+            margin-top: 10px;
+            background-color: #cdcbcb;
+        }
+
+        .f80 {
+            font-size: 24px !important;
+            line-height: 24px;
+        }
+
+        .icon-content {
+            width: 24%;
+            display: inline-block;
+            margin-top: 10px;
+            text-align: center;
+            vertical-align: center;
+        }
+    </style>
+</head>
+<body>
+<div class="content">
+    <div class="blockContent">
+        <div class="weui-flex table_row top">
+            <div class="icon-content">
+                <i class="icon f80 layui-icon iconfont layui-icon-kucunchaxun"></i>
+                <p>库存概况</p>
+            </div>
+            <div class="icon-content">
+                <i class="icon f80 layui-icon iconfont layui-icon-renwu"></i>
+                <p>入库上架</p>
+            </div>
+            <div class="icon-content">
+                <i class="icon f80 layui-icon iconfont layui-icon-renwu"></i>
+                <p>出库下架</p>
+            </div>
+            <div class="icon-content">
+                <i class="icon f80 layui-icon iconfont layui-icon-gerenzhongxin"></i>
+                <p>个人中心</p>
+            </div>
+        </div>
+    </div>
+    <table id="orderList" lay-filter="orderList"></table>
+
+</div>
+<script type="text/html" id="toolBar">
+    <a class="layui-btn layui-btn-xs" lay-event="stock">入库</a>
+</script>
+<script type="text/javascript" src="lib/jquery-3.4.1.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="./layui-v2.5.7/layui/layui.js"></script>
+<script type="text/javascript" src="./stockm.js"></script>
+</body>
+</html>

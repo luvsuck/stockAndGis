@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
+    <style type="text/css">
+        body, html {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            font-family: "微软雅黑";
+        }
+
+        #allmap {
+            height: 95%;
+            width: 100%;
+        }
+
+        #r-result {
+            width: 100%;
+        }
+
+        .BMapLabel {
+            text-align: center;
+            vertical-align: center;
+        }
+
+        .layui-layer-demo .layui-layer-title {
+            border: none;
+            background-color: #333;
+            color: #fff;
+        }
+
+        .BMapLabel {
+            transform: translateX(-50%);
+        }
+
+        .layui-layer {
+            width: 30%;
+        }
+    </style>
+    <script type="text/javascript"
+            src="https://api.map.baidu.com/api?v=3.0&ak=GH6IiRy39cs8aUgCndgWDi1AAi9IScG4"></script>
+    <script src="//api.map.baidu.com/api?type=webgl&v=1.0&ak=GH6IiRy39cs8aUgCndgWDi1AAi9IScG4"></script>
+
+    <script type="text/javascript"
+            src="http://api.map.baidu.com/library/DrawingManager/1.4/src/DrawingManager_min.js"></script>
+    <link rel="stylesheet" href="http://api.map.baidu.com/library/DrawingManager/1.4/src/DrawingManager_min.css"/>
+    <link rel="stylesheet" href="./layui-v2.5.7/layui/css/layui.css">
+    <link rel="stylesheet" href="lib/layui-icon-extend/iconfont.css">
+    <script type="text/javascript" src="lib/jquery-3.4.1.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="./layui-v2.5.7/layui/layui.js"></script>
+    <script type="text/javascript" src="./map.js" charset="utf-8"></script>
+
+    <title>webgiPro目</title>
+</head>
+<body>
+<div id="allmap"></div>
+<div id="r-result">
+<!--    <input type="button" name="addLayer" value="添加覆盖物"/>-->
+    <input type="button" name="removeLayer" value="清空覆盖物"/>
+    <input type="button" name="paint" value="绘制"/>
+    <input type="button" name="save" value="保存"/>
+    <input type="button" name="update" value="更新"/>
+</div>
+</body>
+</html>

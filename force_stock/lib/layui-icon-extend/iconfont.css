@@ -1,0 +1,139 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2119908 */
+  src: url('iconfont.woff2?t=1626243810986') format('woff2'),
+       url('iconfont.woff?t=1626243810986') format('woff'),
+       url('iconfont.ttf?t=1626243810986') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.layui-icon-gerenzhongxin:before {
+  content: "\e61d";
+}
+
+.layui-icon-kucunchaxun:before {
+  content: "\e67f";
+}
+
+.layui-icon-renwu:before {
+  content: "\e62b";
+}
+
+.layui-icon-saoma:before {
+  content: "\e635";
+}
+
+.layui-icon-huabanfuben:before {
+  content: "\e691";
+}
+
+.layui-icon-saomiaoshibie380:before {
+  content: "\e686";
+}
+
+.layui-icon-jianhuo:before {
+  content: "\e63a";
+}
+
+.layui-icon-dingdan:before {
+  content: "\e694";
+}
+
+.layui-icon-jianhuoguanli:before {
+  content: "\e60e";
+}
+
+.layui-icon-chushaixuanxiang:before {
+  content: "\e604";
+}
+
+.layui-icon-daoru:before {
+  content: "\e695";
+}
+
+.layui-icon-mobanxiazai:before {
+  content: "\e6d4";
+}
+
+.layui-icon-xiazai:before {
+  content: "\e70c";
+}
+
+.layui-icon-add:before {
+  content: "\e603";
+}
+
+.layui-icon-chakan-01:before {
+  content: "\e666";
+}
+
+.layui-icon-piciguanli:before {
+  content: "\e992";
+}
+
+.layui-icon-tempera1:before {
+  content: "\e602";
+}
+
+.layui-icon-wendu1:before {
+  content: "\e741";
+}
+
+.layui-icon-daochu:before {
+  content: "\e60d";
+}
+
+.layui-icon-wenduji:before {
+  content: "\e620";
+}
+
+.layui-icon-shebei:before {
+  content: "\e6c4";
+}
+
+.layui-icon-baocun:before {
+  content: "\e600";
+}
+
+.layui-icon-huabi:before {
+  content: "\e601";
+}
+
+.layui-icon-huabi-copy:before {
+  content: "\e6fb";
+}
+
+.layui-icon-huizhiyaosu-copy:before {
+  content: "\e6fc";
+}
+
+.layui-icon-draw-can:before {
+  content: "\e6fe";
+}
+
+.layui-icon-draw-cannot:before {
+  content: "\e6fd";
+}
+
+.layui-icon-qianshou:before {
+  content: "\e64e";
+}
+
+.layui-icon-lansexuehua:before {
+  content: "\e61a";
+}
+
+.layui-icon-shengcheng:before {
+  content: "\e6fa";
+}
+
+.layui-icon-lenglianpingtai:before {
+  content: "\e64d";
+}
+

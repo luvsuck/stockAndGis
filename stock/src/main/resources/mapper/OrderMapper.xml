@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.luvsic.stock.dao.OrderDao">
+    <resultMap type="com.luvsic.stock.entity.Order" id="OrderMap">
+        <id property="id" column="id"/>
+        <result property="orderNo" column="order_no"/>
+        <result property="addTime" column="add_time"/>
+    </resultMap>
+
+    <resultMap type="com.luvsic.stock.entity.OrderDetails" id="OrderDetailsMap">
+        <id property="id" column="id"/>
+        <result property="orderNo" column="order_no"/>
+        <result property="detailsNo" column="details_no"/>
+        <result property="descr" column="descr"/>
+        <result property="amounts" column="amounts"/>
+        <result property="locationId" column="location_id"/>
+        <result property="detailsName" column="details_name"/>
+        <result property="stockAmount" column="stock_amount"/>
+        <result property="addTime" column="add_time"/>
+    </resultMap>
+
+    <resultMap type="com.luvsic.stock.entity.Overlayer" id="OverlayerMap">
+        <id property="id" column="id"/>
+        <result property="cid" column="cid"/>
+        <result property="type" column="type"/>
+        <result property="content" column="content"/>
+        <result property="lat" column="lat"/>
+        <result property="lng" column="lng"/>
+        <result property="cname" column="cname"/>
+    </resultMap>
+
+    <sql id="orderInfo">
+        order_no,add_time
+    </sql>
+    <sql id="detailsInfo">
+        order_no,details_no,descr,amounts,location_id,details_name,stock_amount,add_time
+    </sql>
+
+    <select id="getAllOrderFromTable" resultMap="OrderMap" flushCache="true">
+        select
+        <include refid="orderInfo"/>
+        from orders
+    </select>
+
+    <select id="getDetailsByNo" resultMap="OrderDetailsMap" flushCache="true" parameterType="java.lang.String">
+        select
+        <include refid="detailsInfo"/>
+        from order_details where order_no=#{orderNo}
+    </select>
+
+    <select id="getDetailByDetailId" resultType="com.luvsic.stock.entity.OrderDetails" flushCache="true">
+        select
+        <include refid="detailsInfo"/>
+        from order_details where order_no=#{arg0} and details_no=#{arg1}
+    </select>
+
+    <update id="stockIn">
+        update order_Details set stock_amount=stock_amount+#{arg2} where order_no=#{arg0} and details_no=#{arg1}
+    </update>
+
+    <delete id="removeAll">
+        delete from overlayer
+    </delete>
+
+    <insert id="addLayer">
+        INSERT INTO overlayer ( type, content, lat, lng, cname) VALUES (#{param1}, #{param2},#{param3},#{param4},#{param5})
+    </insert>
+
+    <select id="getAllLayers" resultMap="OverlayerMap" flushCache="true">
+        select
+        *
+        from overlayer
+    </select>
+    <!-- 刷新间隔 -->
+    <cache flushInterval="600000"/>
+</mapper>

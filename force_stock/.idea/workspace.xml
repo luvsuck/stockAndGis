@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="33e2177a-a302-4171-803f-d1e2e3d8858a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/stockm.html" beforeDir="false" afterPath="$PROJECT_DIR$/stockm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockm.js" beforeDir="false" afterPath="$PROJECT_DIR$/stockm.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="userSettingsFile" value="$USER_HOME$/Apache/Maven/apache-maven-3.6.3/conf/settings_local.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1v4ZtF5m055iuQUXMtXsdBI0iRj" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/lib/layui-icon-extend" />
+      <recent name="$PROJECT_DIR$/lib" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="33e2177a-a302-4171-803f-d1e2e3d8858a" name="Default Changelist" comment="" />
+      <created>1625816378149</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625816378149</updated>
+      <workItem from="1625816379245" duration="5374000" />
+      <workItem from="1625823540235" duration="1325000" />
+      <workItem from="1625844868786" duration="1797000" />
+      <workItem from="1625892844609" duration="1229000" />
+      <workItem from="1626054025726" duration="9530000" />
+      <workItem from="1626140014772" duration="465000" />
+      <workItem from="1626140727529" duration="830000" />
+      <workItem from="1626241096242" duration="7516000" />
+      <workItem from="1626311600257" duration="4631000" />
+      <workItem from="1626361633011" duration="2403000" />
+      <workItem from="1626397578145" duration="10139000" />
+      <workItem from="1626450226223" duration="2629000" />
+      <workItem from="1626594903636" duration="8339000" />
+      <workItem from="1626657637009" duration="28182000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="184" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1626365246134">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="184" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.806@0.23.1440.806" timestamp="1626365246134" />
+    <state x="462" y="153" key="RollbackChangesDialog" timestamp="1626674822564">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="462" y="153" key="RollbackChangesDialog/0.23.1440.806@0.23.1440.806" timestamp="1626674822564" />
+    <state x="221" y="65" key="SettingsEditor" timestamp="1626453637140">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="221" y="65" key="SettingsEditor/0.23.1440.806@0.23.1440.806" timestamp="1626453637140" />
+    <state x="100" y="123" width="1240" height="606" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1626658126493">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="100" y="123" width="1240" height="606" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.806@0.23.1440.806" timestamp="1626658126493" />
+    <state x="518" y="347" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1626450864579">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="518" y="347" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.806@0.23.1440.806" timestamp="1626450864579" />
+    <state x="418" y="180" width="604" height="492" key="find.popup" timestamp="1626710011695">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="418" y="180" width="604" height="490" key="find.popup/0.23.1440.804@0.23.1440.804" timestamp="1626330109427" />
+    <state x="418" y="180" width="604" height="492" key="find.popup/0.23.1440.806@0.23.1440.806" timestamp="1626710011695" />
+  </component>
+</project>

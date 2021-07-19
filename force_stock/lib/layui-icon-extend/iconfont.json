@@ -1,0 +1,226 @@
+{
+  "id": "2119908",
+  "name": "layui-icon-extend",
+  "font_family": "iconfont",
+  "css_prefix_text": "layui-icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "4268507",
+      "name": "个人中心",
+      "font_class": "gerenzhongxin",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "11111008",
+      "name": "库存查询",
+      "font_class": "kucunchaxun",
+      "unicode": "e67f",
+      "unicode_decimal": 59007
+    },
+    {
+      "icon_id": "12974862",
+      "name": "任务",
+      "font_class": "renwu",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "2832508",
+      "name": "扫码",
+      "font_class": "saoma",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
+      "icon_id": "7466522",
+      "name": "扫码，条形码，产品代码",
+      "font_class": "huabanfuben",
+      "unicode": "e691",
+      "unicode_decimal": 59025
+    },
+    {
+      "icon_id": "772252",
+      "name": "扫描 识别 380%",
+      "font_class": "saomiaoshibie380",
+      "unicode": "e686",
+      "unicode_decimal": 59014
+    },
+    {
+      "icon_id": "2545174",
+      "name": "首页-拣货",
+      "font_class": "jianhuo",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    },
+    {
+      "icon_id": "15765343",
+      "name": "订 单",
+      "font_class": "dingdan",
+      "unicode": "e694",
+      "unicode_decimal": 59028
+    },
+    {
+      "icon_id": "22573483",
+      "name": "拣货管理",
+      "font_class": "jianhuoguanli",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "18365748",
+      "name": "删除筛选项",
+      "font_class": "chushaixuanxiang",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "13984244",
+      "name": "导入",
+      "font_class": "daoru",
+      "unicode": "e695",
+      "unicode_decimal": 59029
+    },
+    {
+      "icon_id": "14241217",
+      "name": "模板下载",
+      "font_class": "mobanxiazai",
+      "unicode": "e6d4",
+      "unicode_decimal": 59092
+    },
+    {
+      "icon_id": "15779756",
+      "name": "下载",
+      "font_class": "xiazai",
+      "unicode": "e70c",
+      "unicode_decimal": 59148
+    },
+    {
+      "icon_id": "16306775",
+      "name": "添加",
+      "font_class": "add",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "17321285",
+      "name": "查看",
+      "font_class": "chakan-01",
+      "unicode": "e666",
+      "unicode_decimal": 58982
+    },
+    {
+      "icon_id": "19585400",
+      "name": "批次管理",
+      "font_class": "piciguanli",
+      "unicode": "e992",
+      "unicode_decimal": 59794
+    },
+    {
+      "icon_id": "12023495",
+      "name": "温度",
+      "font_class": "tempera1",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "13259587",
+      "name": "温度",
+      "font_class": "wendu1",
+      "unicode": "e741",
+      "unicode_decimal": 59201
+    },
+    {
+      "icon_id": "841311",
+      "name": "导出",
+      "font_class": "daochu",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "79015",
+      "name": "温度计",
+      "font_class": "wenduji",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "16611802",
+      "name": "设备",
+      "font_class": "shebei",
+      "unicode": "e6c4",
+      "unicode_decimal": 59076
+    },
+    {
+      "icon_id": "13212651",
+      "name": "保存 线性",
+      "font_class": "baocun",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "10134276",
+      "name": "画笔",
+      "font_class": "huabi",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "18987417",
+      "name": "画笔",
+      "font_class": "huabi-copy",
+      "unicode": "e6fb",
+      "unicode_decimal": 59131
+    },
+    {
+      "icon_id": "18987927",
+      "name": "绘制要素",
+      "font_class": "huizhiyaosu-copy",
+      "unicode": "e6fc",
+      "unicode_decimal": 59132
+    },
+    {
+      "icon_id": "18988027",
+      "name": "绘制要素",
+      "font_class": "draw-can",
+      "unicode": "e6fe",
+      "unicode_decimal": 59134
+    },
+    {
+      "icon_id": "18987932",
+      "name": "绘制要素",
+      "font_class": "draw-cannot",
+      "unicode": "e6fd",
+      "unicode_decimal": 59133
+    },
+    {
+      "icon_id": "4356061",
+      "name": "签收",
+      "font_class": "qianshou",
+      "unicode": "e64e",
+      "unicode_decimal": 58958
+    },
+    {
+      "icon_id": "14734280",
+      "name": "冷链配送",
+      "font_class": "lansexuehua",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "9520864",
+      "name": "生成",
+      "font_class": "shengcheng",
+      "unicode": "e6fa",
+      "unicode_decimal": 59130
+    },
+    {
+      "icon_id": "15434649",
+      "name": "冷链平台",
+      "font_class": "lenglianpingtai",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    }
+  ]
+}
