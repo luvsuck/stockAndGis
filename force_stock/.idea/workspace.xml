@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33e2177a-a302-4171-803f-d1e2e3d8858a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/stockm.html" beforeDir="false" afterPath="$PROJECT_DIR$/stockm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stockm.js" beforeDir="false" afterPath="$PROJECT_DIR$/stockm.js" afterDir="false" />
-    </list>
+    <list default="true" id="33e2177a-a302-4171-803f-d1e2e3d8858a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +15,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -29,6 +26,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1v4ZtF5m055iuQUXMtXsdBI0iRj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
@@ -53,19 +51,6 @@
       <recent name="$PROJECT_DIR$/lib" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -88,6 +73,7 @@
       <workItem from="1626450226223" duration="2629000" />
       <workItem from="1626594903636" duration="8339000" />
       <workItem from="1626657637009" duration="28182000" />
+      <workItem from="1626714169691" duration="84000" />
     </task>
     <servers />
   </component>

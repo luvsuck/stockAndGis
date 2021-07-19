@@ -6,7 +6,9 @@
 
    基于mysql数据库，使用项目中的stockment.sql脚本快速建库。
 
-   ![image-20210719233405774](/Users/zyy/Library/Application Support/typora-user-images/image-20210719233405774.png)
+  
+   ![image-20210719233405774](../img/image-20210719233405774.png)
+
 
 2. 导入后段工程文件到您的ide工具中。
 3. 启动springboot项目查看wsdl相关信息![image-20210719233548764](/Users/zyy/Library/Application Support/typora-user-images/image-20210719233548764.png)
