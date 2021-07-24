@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33e2177a-a302-4171-803f-d1e2e3d8858a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/map.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/map.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +101,7 @@
       <workItem from="1626836247686" duration="20336000" />
       <workItem from="1627002623896" duration="5302000" />
       <workItem from="1627037285910" duration="252000" />
-      <workItem from="1627106111827" duration="22915000" />
+      <workItem from="1627106111827" duration="23219000" />
     </task>
     <servers />
   </component>

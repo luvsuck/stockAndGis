@@ -209,6 +209,8 @@ layui.use(['layer', 'table', 'element', 'laydate'], function () {
                 }
                 if (circles && circles.length) {
                     circles[0].forEach(a => {
+                        a.content = a.content.replaceAll('\n', '<br\>');
+                        // console.log(JSON.stringify(a.content))
                         genCircle(a.lng, a.lat, a.content)
                     });
                 }
