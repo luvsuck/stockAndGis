@@ -195,19 +195,24 @@ layui.use(['layer', 'table', 'element', 'laydate'], function () {
                         polygons.push(k)
                     }
                 });
-                polygons.forEach(p => {
-                    let pointA = [];
-                    p.forEach(pp => {
-                        let lat = pp.lat;
-                        let lng = pp.lng;
-                        pointA.push(new BMap.Point(lng, lat));
+                if (polygons && polygons.length) {
+                    polygons.forEach(p => {
+                        let pointA = [];
+                        p.forEach(pp => {
+                            let lat = pp.lat;
+                            let lng = pp.lng;
+                            pointA.push(new BMap.Point(lng, lat));
+                        });
+                        genLayer(pointA)
                     });
-                    genLayer(pointA)
-                });
 
-                circles[0].forEach(a => {
-                    genCircle(a.lng, a.lat, a.content)
-                });
+                }
+                if (circles && circles.length) {
+                    circles[0].forEach(a => {
+                        genCircle(a.lng, a.lat, a.content)
+                    });
+                }
+
             }
         });
     }
