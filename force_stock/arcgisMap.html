@@ -25,6 +25,9 @@
     </style>
     <link rel="stylesheet" href="https://js.arcgis.com/4.20/esri/themes/light/main.css">
     <script src="https://js.arcgis.com/4.20/"></script>
+<!--    <script src="https://api.map.baidu.com/api?v=3.0&ak=GH6IiRy39cs8aUgCndgWDi1AAi9IScG4"></script>-->
+    <script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.15&key=407bff3f64917fe953ec644e91953907&plugin=AMap.DistrictSearch"></script>
+
     <script type="text/javascript" src="./layui-v2.5.7/layui/layui.js"></script>
     <script src="./arcgisMap.js"></script>
 </head>
@@ -37,6 +40,8 @@
     <button id="clearDrawings" type="button" class="layui-btn">清除</button>
     <button class="saveAll" type="button" class="layui-btn">保存</button>
     <button class="updateAll" type="button" class="layui-btn">更新</button>
+    <input type="text" name="ctName">
+    <button class="getBoundary" type="button" class="layui-btn">边界</button>
 </div>
 
 </body>

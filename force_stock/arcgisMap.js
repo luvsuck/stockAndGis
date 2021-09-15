@@ -16,6 +16,7 @@ layui.use(['layer', 'table', 'element', 'laydate'], function () {
         , "esri/geometry/Circle"
         , "esri/layers/WebTileLayer"
         , "esri/symbols/Font"
+        , "esri/geometry/Extent"
     ], function (
         esriConfig
         , EsriMap
@@ -30,6 +31,7 @@ layui.use(['layer', 'table', 'element', 'laydate'], function () {
         , Circle
         , WebTileLayer
         , Font
+        , Extent
     ) {
         esriConfig.apiKey = "AAPK1ff769e87da54aecabc2a41990ffbe31HLgdMgvKpOyHtXOoUHNQ4JCMP-dLSdLRvk10EhspnIJi6UEAmIjeIMTOqzWsGlE5";
 
@@ -271,6 +273,7 @@ layui.use(['layer', 'table', 'element', 'laydate'], function () {
                                 let lng = pp.lng;
                                 pointA.push([lng, lat]);
                             });
+                            console.log(pointA);
                             addPolygon(pointA);
                         });
 
@@ -370,6 +373,58 @@ layui.use(['layer', 'table', 'element', 'laydate'], function () {
                 geometry: point
                 , symbol: textSymbol
             }));
+        }
+
+        $('.getBoundary').on('click', function () {
+            let v = $('input[name="ctName"]').val();
+            // getBoundaryForBaidu(v);
+            getBoundsForGaoDe(v);
+        });
+
+
+        function getBoundaryForBaidu(cn) {
+            let bdary = new BMap.Boundary();
+            bdary.get(cn, function (rs) {       //获取行政区域
+                let lid = rs.boundaries;
+                for (let i = 0; i < lid.length; i++) {
+                    let arr = [];
+                    let lids = lid[i].replaceAll(' ', '').split(';');
+                    lids.forEach(l => {
+                        let p = l.split(',');
+                        arr.push([p[0], p[1]]);
+                    })
+                    addPolygon(arr);
+                }
+            });
+        }
+
+        let district = null;
+
+        function getBoundsForGaoDe(v) {
+            if (!district) {
+                let opts = {
+                    subdistrict: 0,
+                    extensions: 'all',
+                    level: 'district'
+                };
+                district = new AMap.DistrictSearch(opts);
+            }
+            district.setLevel('district')
+            district.search(v, function (status, result) {
+                polygons = [];
+                let bounds = result.districtList[0].boundaries;
+                if (bounds) {
+                    for (let i = 0; i < bounds.length; i++) {
+                        let bds = bounds[i];
+                        let par = [];
+                        for (let j = 0; j < bds.length; j++) {
+                            par.push([bds[i].lng, bds[i].lat]);
+                        }
+                        console.log(par)
+                        addPolygon(par);
+                    }
+                }
+            });
         }
 
         //-------------------------------------------------------------------------

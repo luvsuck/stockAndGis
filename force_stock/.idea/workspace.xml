@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33e2177a-a302-4171-803f-d1e2e3d8858a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arcgisMap.html" beforeDir="false" afterPath="$PROJECT_DIR$/arcgisMap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arcgisMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/arcgisMap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../stock/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +51,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -61,15 +64,13 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -101,7 +102,8 @@
       <workItem from="1626836247686" duration="20336000" />
       <workItem from="1627002623896" duration="5302000" />
       <workItem from="1627037285910" duration="252000" />
-      <workItem from="1627106111827" duration="23219000" />
+      <workItem from="1627106111827" duration="23579000" />
+      <workItem from="1631669130402" duration="8439000" />
     </task>
     <servers />
   </component>
